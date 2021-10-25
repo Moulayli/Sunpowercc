@@ -45,9 +45,17 @@ h5{
     font-size: 16px;
 }
 .card-img-top{
-    height: 350px;
+    height: 300px;
+    width: 300;
+    
 }
-
+.cta-section-confiance{
+    margin: 5%;
+    text-decoration: none;
+    padding: 1%;
+    background-color: rgb(255, 205, 41);
+    width: 100px;
+}
 
 
 
