@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    
+}
+/*
+form>*{
+    margin: 2%;
+    text-align: right;
+}*/
+form{
+    background-color:#FAFAFA;
+    padding:10px;
+    width:100%;
+}
+label {
+    margin-top:10px;
+    display:block;
+    }
+
+input, textarea, select, option {
+    background-color:#FFF3F3;
+    }
+
