@@ -1,6 +1,5 @@
 .navbar {
     border-bottom: rgb(228, 211, 211) 3px solid;
-    opacity: 0.8;
   }
 .navbar img {
     width: 80px;
@@ -23,6 +22,7 @@
   .content {
     display: flex;
     justify-content: space-between;
+    margin: 50px;
   }
   .formul {
     display: flex;
