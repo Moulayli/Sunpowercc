@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+        <link rel="icon" href="asset/img/icon.ico" type="image/icon">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="asset/css/style.css">
+        <title>SUNPOWER</title>
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        
+    <header>
+       <nav class="navbar-expand-sm navbar bg-light navbar-light fixed-top">
+            <div class="container">
+            
+                    <a href="index.html" class="navbar-brand">
+                        <img src="asset/img/logo.png" alt="Logo SUNPOWER">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <span class="navbar-text">
+                        Pensez-y une fois, pensez-y deux fois, Pensez SUNPOWER
+                        </span>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#accueil" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#references" class="nav-link">Nos Références</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#activite" class="nav-link">Nos activités</a>
+                        </li>
+                    </ul>
+                        <form class="justify-content-end">
+                            <button class="btn btn-warning me-2" type="button"> <a href="contact.html">Nous contacter</a></button>
+                        </form>
+                </div>
+            </div>
+        </nav> 
+    </header>
+
+        <!-- Main -->
+        <br><br>
+        <br><br><br>
+        <br>
+        
+
+    <main>
+        <span class="appel">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="50" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            Je passe au vert.
+        </span>
+        <section>
+            <h2>Rechercher & innover</h2>
+            <span>
+                Redessiner l’avenir pour la transition énergétique
+            </span>
+            <span>
+                SUNPOWER est un leader mondial dans la recherche et le développement de technologies solaires photovoltaïques avancées, leur intégration dans les systèmes électriques et la gestion intelligente de l'énergie.
+            </span>
+            <p>
+                La recherche et le développement constitue l'ADN de la société.
+SunPower participe à différent projet européens, et notamment sur un projet mené conjointement avec le CEA et le groupe PSA sur un système de recharge par induction sur des distances de plus d'1 mètre.
+            </p>
+            <img src="asset/img/bmw-charge-induction.jpg" alt="" class="container-fluid">
+        </section>
+        <section>
+            <h2>Pourquoi l'induction ?</h2>
+            <p> Ses avantages sont nombreux ; outre le côté pratique des câbles, dans les villes et même à la maison, la borne de recharge par induction permet automatiquement de charger son véhicule en se positionnant sur la plaque dédiée.
+                <br><br>
+                En ville, nous imaginons alors des places de parking aménagées spécifiquement sur lesquelles nous pouvons nous garer pour se recharger. À domicile également, le sol d’un garage ou même son allée peuvent être aménagés dans cet esprit.
+                 </p>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 ele">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                          </svg>Envoi du formulaire de prise de contact
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                          </svg>Conception et faisabilité du projet
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                          </svg>Devis et contrat
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                          </svg>Demande des autorisations d'urbanisme nécessaire
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                          </svg>Installation
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                          </svg>Raccordement au réseau électrique
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="asset/img/pexels-photo-9488842.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12">
+                    <a href="" class="cta">Passez à l'energie solaire dès maintenant !</a>
+                  </div>
+            </div>
+        </section>
+        <section>
+            <h2> L’ombrière de parking solaire : </h2>
+            <span> apporter confort et énergie</span>
+            <p>
+                Une ombrière de parking solaire offre deux avantages simultanément. En effet, elle permet de protéger les voitures de la surchauffe estivale mais aussi de la pluie, tout en vous apportant une production d’énergie gratuite.
+                <br>
+                L’ombrière photovoltaïque de parking vous permet d’autoproduire de l’électricité verte sur votre site et de maîtriser votre facture énergétique. Produire sa propre électricité est ainsi un moyen de limiter le bilan carbone de ses activités. Vous optimisez ainsi une surface déjà occupée au mieux de ses capacités.
+            </p>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="asset/img/Ombriwatt.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/Ombriwatt.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="asset/img/Ombriwatt.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    Infrastructure légère
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    Production d'énergie gratuite
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    Recharger votre véhicule électrique
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- Footer -->
+<footer>
+    <div class="jumbotron jumbotron-fluid p-4 mt-5 mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="border-0">
+                        <div class="text-light text-center">
+                            <h5 class="text-white display-4" style="font-size:30px">Nos activités</h5>
+                        <a href="#" class="text-light d-block lead">Nos ombrières solaires</a>
+                        <a href="#" class="text-light d-block lead">Nos technologies</a>
+                        <a href="#" class="text-light d-block lead">R&D au service du solaire</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="border-0">
+                        <div class="text-center">
+                            <h5 class="text-white display-4" style="font-size:30px">Nos Références</h5>
+                        <a href="#" class="text-light d-block lead">La Société</a>
+                        <a href="#" class="text-light d-block lead">Les fondateurs</a>
+                            
+                            <h5 class="text-white display-4" style="font-size:30px">Mentions légales</h5>
+                        <a href="#" class="text-light d-block lead">Politique de confidentialité</a>
+                        <a href="#" class="text-light d-block lead">Les fondateurs</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="border-0">
+                        <div class="text-center">
+                        <h5 class="text-white display-4" style="font-size:30px">Où nous trouver?</h5>
+
+                            <a class="text-light d-block lead" href="#"><i class="fa fa-phone mr-2" style="margin: 10px;"></i>+33(0)4 85 26 74 15</a>
+                            <a class="text-light d-block lead" href="#"><i class="fa fa-envelope mr-2" style="margin: 10px;"></i>contact@sunpower.com</a>
+                            
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" style="font-size: 25px; color:blueviolet; margin-right: 5px;"></i></a> 
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square" style="font-size: 25px; color: rgb(216, 79, 79); margin-right: 5px;"></i></a> 
+                            <a href="https://www.twitter.com/"><i class="fab fa-twitter" style="font-size: 25px; color:rgb(181, 181, 255); margin-right: 5px;"></i></a> 
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin" style="font-size: 25px; color:blue; margin-right: 5px;"></i></a> 
+                        </div>
+                    </div>
+                </div>	
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

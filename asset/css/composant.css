@@ -58,8 +58,12 @@ h5{
 }
 
 
-
-
+.ele{
+    padding-left: 10%;
+}
+.ele>div{
+ text-align: left;
+}
 
 
 
