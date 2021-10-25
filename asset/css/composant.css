@@ -1,0 +1,26 @@
+.presentation{
+    background: url('img/Ombriere-Rendu-10b.jpg') no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: azure;
+}h1{
+    padding: 2%;
+}
+section{
+    min-height: 780px;
+    font-size: x-large;
+}
+.flou{
+    background-color: rgba(0, 0, 0, 0.367);
+    min-height: 780px;
+}
+.element{
+    margin: 5%;
+}
+.cta{
+    color: rgb(255, 205, 41);
+}
+.ctap{
+    text-decoration: none;
+    color: rgb(255, 205, 41);
+}
