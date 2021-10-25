@@ -14,6 +14,7 @@
     width: 200px;
     border-radius: 35%;
     color: white;
+    z-index: 1;
 }
 
 #mapid{
@@ -28,8 +29,24 @@
 section{
     margin-top:2%;
     text-align: center;
+   
 }
-
+.euh{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+h5{
+    color: rgb(255, 205, 41);
+}
+.card{
+    height: 500px;
+    width: 500px;
+    font-size: 16px;
+}
+.card-img-top{
+    height: 350px;
+}
 
 
 
