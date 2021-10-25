@@ -1,8 +1,7 @@
 .navbar {
     border-bottom: rgb(228, 211, 211) 3px solid;
-
-}
- img {
+  }
+.navbar img {
     width: 100px;
     height: 100px;
 }
