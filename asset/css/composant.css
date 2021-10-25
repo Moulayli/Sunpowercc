@@ -49,12 +49,12 @@ h5{
     width: 300;
     
 }
-.cta-section-confiance{
-    margin: 5%;
+.cta-section-confiance>a{
+    padding-top: 6%;
+    text-transform: capitalize;
+    padding:6px;
+    border-radius: 3%;
     text-decoration: none;
-    padding: 1%;
-    background-color: rgb(255, 205, 41);
-    width: 100px;
 }
 
 
