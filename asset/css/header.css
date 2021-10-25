@@ -1,9 +1,10 @@
 .navbar {
     border-bottom: rgb(228, 211, 211) 3px solid;
-  }
-.navbar img {
-    width: 80px;
-    height: 80px;
+
+}
+ img {
+    width: 100px;
+    height: 100px;
 }
 
 .nav-item :hover {

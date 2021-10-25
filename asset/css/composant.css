@@ -106,4 +106,8 @@ section{
     color: rgb(255, 205, 41);
     text-decoration: underline;
 }
-
+@media (max-width: 500px){
+    .appel {
+        display: none;
+    }
+}
