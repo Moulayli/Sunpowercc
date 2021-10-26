@@ -112,5 +112,6 @@
   }
   #section3 img {
       border-radius: 150%;
+      max-height: 200px;
   }
   
