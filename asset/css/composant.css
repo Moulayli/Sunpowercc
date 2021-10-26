@@ -59,7 +59,7 @@ h5{
 
 
 .ele{
-    padding-left: 10%;
+    padding-left: 20%;
 }
 .ele>div{
  text-align: left;
@@ -76,11 +76,14 @@ h5{
     width: 100px;
 }
 
-
+h2{
+    padding: 20px;
+}
 
 
 
 h1{
+    margin: 5%;
     padding: 2%;
 }
 section{
