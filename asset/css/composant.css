@@ -4,6 +4,7 @@
     background-size: cover;
     text-align: center;
     color: azure;
+
 }
 
 .appel{
@@ -50,6 +51,9 @@ h5{
     height: 300px;
     width: 300;
     
+}
+.cta-section-confiance{
+    margin-top: 10%;
 }
 .cta-section-confiance>a{
     padding-top: 6%;
