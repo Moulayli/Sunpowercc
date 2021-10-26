@@ -1,4 +1,4 @@
-#references {
+#section1 {
     background: url("/asset/img/Fondation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,13 +15,13 @@
     right: 0;
     background: black;
     opacity: 0.6;
-  }*/
-#references h2 {
+  }
+#section1 h2 {
     color: white;
     text-align: center;
 }
 
-  .container ul {
+  .pop ul {
     list-style: none;
     position: absolute;
     top: 50%;
