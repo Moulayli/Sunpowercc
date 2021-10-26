@@ -1,4 +1,5 @@
 .presentation{
+    
     background: url('img/Ombriere-Rendu-10b.jpg') no-repeat fixed;
     background-size: cover;
     text-align: center;
@@ -84,17 +85,18 @@ h2{
 
 
 h1{
-    margin: 5%;
-    padding: 2%;
+    padding-bottom: 20%;
 }
 section{
     min-height: 800px;
     font-size: x-large;
 }
 .flou{
+    
     background-color: rgba(0, 0, 0, 0.367);
     min-height: 800px;
 }
+
 .element{
     margin: 5%;
 }
