@@ -5,7 +5,7 @@
     background-attachment: fixed;
     min-height: 635px;
   }
-   /*.drk:after {
+   .drk:after {
     content: "";
     display: block;
     position: absolute;
