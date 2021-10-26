@@ -1,7 +1,9 @@
 @import 'contact.css'; 
 @import 'composant.css';
+@import 'activite.css';
 @import 'header.css';
 @import 'footer.css';
+
 * {
     margin: 0;
     padding: 0;
