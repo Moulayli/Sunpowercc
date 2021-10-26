@@ -1,68 +1,116 @@
 #section1 {
-    background: url("/asset/img/Fondation.jpg");
+    background: url(/asset/img/entreprise.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 635px;
-  }
-   .drk:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: black;
-    opacity: 0.6;
-  }
-#section1 h2 {
-    color: white;
-    text-align: center;
+    min-height: 700px;
 }
-
-  .pop ul {
-    list-style: none;
+#section1 .contenu-references {
+    padding-top: 150px;
+    color: white;
+}
+#section1 h2 {
+    color: yellow;
+}
+#section1 .drk {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1px 100px;
-    color: black;
-    font-size: 13px;
+    
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
   }
   
-  .pop ul li {
+/*   .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  } */
+  
+  
+  
+  #section2 .container {
+    overflow: hidden;
+    padding: 20px 10px;
     position: relative;
-    margin-left: 30px ;
-    padding: 14px;
-    border-radius: 6px;
-    width: 250px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+    margin: 0 auto;
+    width: 600px;
   }
-  .pop ul li:not(:first-child) {
-    margin-top: 70px;
-  }
-  .pop ul li > span {
-    width: 2px;
-    height: 100%;
-    background: black;
-    left: -30px;
-    top: 0;
-    position: absolute;
-  }
-  .pop ul li > span:before, .pop ul li > span:after {
+  
+  #section2 .container:before {
     content: '';
     width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    border: 2px solid #fff;
+    height: 100%;
+    background: #313131;
     position: absolute;
-    background: #86b7e7;
-    left: -5px;
-    top: 0;
+    left: 20px;
   }
-  .pop ul li span:after {
-    top: 100%;
+  
+  #section2 .job {
+    background: white;
+    padding: 20px;
+    margin: 20px 60px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    -webkit-box-shadow: -5px 5px 41px -18px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px 5px 41px -18px rgba(0,0,0,0.75);
+  box-shadow: -5px 5px 41px -18px rgba(0,0,0,0.75);
+  text-align: left;
+  }
+  
+.job h2 {
+    font-size: 30px;
+    color: #6ab04c;
+    border: 2px solid #535c68;
+    padding: 4px;
+    border-radius: 8px;
+  }
+.job ul {
+    list-style-type: none;
+}
+  
+.job:before {
+    content: '';
+    width: 100px;
+    height: 0;
+    background: white;
+    left: -10px;
+    top: 50%;
+    transform: translatey(-50%) rotate(45deg);
+    position: absolute;
+    z-index: -1;
+    border: 2px solid #000;
+  }
+  
+  .job:after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #badc58;
+    border-radius: 50%;
+    border: 4px solid #313131;
+    left: -65px;
+    top: 50%;
+    transform: translatey(-50%) rotate(45deg);
+    position: absolute;
+  }
+  #section3 {
+    background: rgb(29,79,145);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100px;
+    text-align: center;
+    color: white;
+  }
+  #section3 img {
+      border-radius: 150%;
   }
   

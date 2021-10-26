@@ -1,5 +1,4 @@
 .presentation{
-    
     background: url('img/Ombriere-Rendu-10b.jpg') no-repeat fixed;
     background-size: cover;
     text-align: center;
@@ -32,6 +31,9 @@ section{
     text-align: center;
    
 }
+.col-6{
+    margin-top: 5%;
+}
 section.content{
     margin: 0!important;
     width: 100%;
@@ -58,7 +60,7 @@ h5{
     
 }
 .formul {
-    display: flex;
+   display: flex;
     flex-direction:row;
     align-items: center;
     margin: 3%;
@@ -82,6 +84,7 @@ h5{
     width: 100px;
 }
 h2 {
+    margin-top: 10%;
     overflow: hidden;
     text-align: center;
   }
@@ -107,11 +110,10 @@ h2 {
     margin-right: -50%;
   }
 h2{ 
-    margin-top:10%;
+    margin-top:5%;
 }
 
 section{
-    min-height: 800px;
     font-size: x-large;
 }
 .flou{
@@ -140,6 +142,11 @@ section{
     color: rgb(255, 205, 41);
     text-decoration: underline;
 }
+.carousel{
+    margin-left: 20%;
+}
+
+
 @media (max-width: 500px){
     .appel {
         display: none;

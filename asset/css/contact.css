@@ -9,6 +9,12 @@ h2{
 .contact{
     background-color: rgb(29, 79, 145);
     padding: 2%;
+    text-align: center;
+    color: white;
+    font-weight: 69px !important;
+}
+span{
+    font-size: 26px;
 }
 /*
 form>*{
