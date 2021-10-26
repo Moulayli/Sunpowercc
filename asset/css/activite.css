@@ -23,16 +23,3 @@ h3 {
     vertical-align: middle;
     width: 20%;
   }
-  
-  h3:before {
-    right: 1em;
-    margin-left: -50%;
-  }
-  
-  h3:after {
-    left: 1em;
-    margin-right: -50%;
-  }
-h3{ 
-    margin-top:10%;
-}
