@@ -12,6 +12,7 @@ h3 {
     
     overflow: hidden;
     text-align: center;
+    margin-bottom: 2%;
   }
   
   h3:before,
@@ -23,4 +24,10 @@ h3 {
     position: relative;
     vertical-align: middle;
     width: 20%;
+  }
+  .ele{
+      color: white;
+      background-color: rgb(29, 79, 145);
+      padding-left: 12%;
+      height: 6%px;
   }
