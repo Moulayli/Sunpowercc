@@ -4,15 +4,6 @@
     background-size: cover;
     text-align: center;
     color: azure;
-<<<<<<< HEAD
-
-=======
-    margin-top:6%;
-}
-.presentation>h1{
-    margin: auto;
-    padding: auto;
->>>>>>> 4e52373dfcdc4506dee1dac2e58144d977f93d03
 }
 .appel{
     position: fixed;
@@ -41,6 +32,13 @@ section{
     text-align: center;
    
 }
+section.content{
+    margin: 0!important;
+    width: 100%;
+    color: white;
+    height: 100%;
+    background-color: rgb(29, 79, 145);
+}
 .euh{
     text-align: center;
     margin-top: 5%;
@@ -50,36 +48,31 @@ h5{
     color: rgb(255, 205, 41);
 }
 .card{
-    height: 500px;
-    width: 500px;
+    
     font-size: 16px;
+    overflow: auto;
 }
 .card-img-top{
     height: 300px;
     width: 300;
     
 }
+.formul {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin: 3%;
+    
+  }
 .cta-section-confiance{
     margin-top: 10%;
+    margin-bottom: 10%;
 }
-.cta-section-confiance>a{
-    padding-top: 6%;
+.cta-section-confiance.a{
     text-transform: capitalize;
-    padding:6px;
-    border-radius: 3%;
     text-decoration: none;
+    color: white;
 }
-
-
-.ele{
-    padding-left: 20%;
-}
-.ele>div{
- text-align: left;
-}
-
-
-
 .crois{
     padding-top: 10%;
 }
@@ -88,7 +81,31 @@ h5{
     color: rgb(255, 205, 41);
     width: 100px;
 }
-
+h2 {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  h2:before,
+  h2:after {
+    background-color: rgb(255, 205, 41);
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+  }
+  
+  h2:before {
+    right: 1em;
+    margin-left: -50%;
+  }
+  
+  h2:after {
+    left: 1em;
+    margin-right: -50%;
+  }
 h2{ 
     margin-top:10%;
 }

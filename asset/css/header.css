@@ -28,14 +28,7 @@
     justify-content: space-between;
     margin: 50px;
   }
-  .formul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3%;
-    border: 2px solid rgb(155, 155, 155);
-    border-radius: 15px;
-  }
+ 
   .services .content {
     display: flex;
     justify-content: center;
