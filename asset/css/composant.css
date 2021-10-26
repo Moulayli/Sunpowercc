@@ -4,11 +4,15 @@
     background-size: cover;
     text-align: center;
     color: azure;
+<<<<<<< HEAD
+
+=======
     margin-top:6%;
 }
 .presentation>h1{
     margin: auto;
     padding: auto;
+>>>>>>> 4e52373dfcdc4506dee1dac2e58144d977f93d03
 }
 .appel{
     position: fixed;
@@ -54,6 +58,9 @@ h5{
     height: 300px;
     width: 300;
     
+}
+.cta-section-confiance{
+    margin-top: 10%;
 }
 .cta-section-confiance>a{
     padding-top: 6%;
