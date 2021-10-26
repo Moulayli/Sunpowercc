@@ -107,7 +107,7 @@ h2 {
     margin-right: -50%;
   }
 h2{ 
-    margin-top:10%;
+    margin-top:5%;
 }
 
 section{
@@ -140,6 +140,7 @@ section{
     color: rgb(255, 205, 41);
     text-decoration: underline;
 }
+
 @media (max-width: 500px){
     .appel {
         display: none;
