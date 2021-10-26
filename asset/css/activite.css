@@ -1,0 +1,9 @@
+.section-activite{
+    text-align:left;
+    margin: auto;
+    padding: 1%;
+    font-family: 'Scheherazade New', serif;
+}
+.section-activite>h2{
+    text-align: left;
+}

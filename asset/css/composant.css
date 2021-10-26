@@ -1,4 +1,5 @@
 .presentation{
+    
     background: url('img/Ombriere-Rendu-10b.jpg') no-repeat fixed;
     background-size: cover;
     text-align: center;
@@ -18,6 +19,7 @@
 }
 
 #mapid{
+    margin-top: 10%;
     width: 100%;
     height: 700px;
     /*
@@ -59,7 +61,7 @@ h5{
 
 
 .ele{
-    padding-left: 10%;
+    padding-left: 20%;
 }
 .ele>div{
  text-align: left;
@@ -76,25 +78,30 @@ h5{
     width: 100px;
 }
 
-
+h2{ 
+    margin-top: 10%;
+}
 
 
 
 h1{
-    padding: 2%;
+    padding-bottom: 20%;
 }
 section{
     min-height: 800px;
     font-size: x-large;
 }
 .flou{
+    
     background-color: rgba(0, 0, 0, 0.367);
     min-height: 800px;
 }
+
 .element{
     margin: 5%;
 }
 .cta{
+    margin-top: 20%;
     color: rgb(255, 205, 41);
     text-decoration: none;
 }
