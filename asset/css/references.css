@@ -1,4 +1,4 @@
-#references {
+#section1 {
     background: url("/asset/img/Fondation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,32 +16,53 @@
     background: black;
     opacity: 0.6;
   }
-#references h2 {
+#section1 h2 {
     color: white;
+    text-align: center;
 }
 
-@media (min-width: 992px)
-.container, .container-lg, .container-md, .container-sm {
-    max-width: 960px;
-}
-@media (min-width: 768px)
-.container, .container-md, .container-sm {
-    max-width: 720px;
-}
-@media (min-width: 576px)
-.container, .container-sm {
-    max-width: 540px;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: auto;
-    margin-left: auto;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-div {
-    display: block;
-}
+  .pop ul {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1px 100px;
+    color: black;
+    font-size: 13px;
+  }
+  
+  .pop ul li {
+    position: relative;
+    margin-left: 30px ;
+    padding: 14px;
+    border-radius: 6px;
+    width: 250px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+  }
+  .pop ul li:not(:first-child) {
+    margin-top: 70px;
+  }
+  .pop ul li > span {
+    width: 2px;
+    height: 100%;
+    background: black;
+    left: -30px;
+    top: 0;
+    position: absolute;
+  }
+  .pop ul li > span:before, .pop ul li > span:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    background: #86b7e7;
+    left: -5px;
+    top: 0;
+  }
+  .pop ul li span:after {
+    top: 100%;
+  }
+  
