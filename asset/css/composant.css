@@ -4,8 +4,16 @@
     background-size: cover;
     text-align: center;
     color: azure;
-}
+<<<<<<< HEAD
 
+=======
+    margin-top:6%;
+}
+.presentation>h1{
+    margin: auto;
+    padding: auto;
+>>>>>>> 4e52373dfcdc4506dee1dac2e58144d977f93d03
+}
 .appel{
     position: fixed;
     margin-left:91%;
@@ -51,6 +59,9 @@ h5{
     width: 300;
     
 }
+.cta-section-confiance{
+    margin-top: 10%;
+}
 .cta-section-confiance>a{
     padding-top: 6%;
     text-transform: capitalize;
@@ -79,14 +90,9 @@ h5{
 }
 
 h2{ 
-    margin-top: 10%;
+    margin-top:10%;
 }
 
-
-
-h1{
-    padding-bottom: 20%;
-}
 section{
     min-height: 800px;
     font-size: x-large;
