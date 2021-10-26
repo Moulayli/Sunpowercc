@@ -140,6 +140,10 @@ section{
     color: rgb(255, 205, 41);
     text-decoration: underline;
 }
+.carousel{
+    margin-left: 20%;
+}
+
 
 @media (max-width: 500px){
     .appel {
