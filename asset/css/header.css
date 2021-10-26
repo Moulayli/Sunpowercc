@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     border-bottom: rgb(228, 211, 211) 3px solid;
+    position: fixed;
+    top: 0%;
   }
 .navbar img {
     width: 100px;
