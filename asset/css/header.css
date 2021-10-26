@@ -1,9 +1,9 @@
 .navbar {
-    margin: 0;
-    padding: 0;
-    border-bottom: rgb(228, 211, 211) 3px solid;
-    position: fixed;
-    top: 0%;
+  position: sticky !important;
+  top: 0 ;
+  border-bottom: rgba(228, 211, 211, 0.192) 3px solid;
+   /* position: fixed;
+    top: 0%;*/
   }
 .navbar img {
     width: 100px;
@@ -42,8 +42,7 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
-  nav{
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
+nav{
+  position: sticky !important;
+  top: 0 ;
+}
