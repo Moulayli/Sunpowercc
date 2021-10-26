@@ -8,6 +8,12 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
         <link rel="icon" href="asset/img/icon.ico" type="image/icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https : //fonts.googleapis.com/css2? family= Libre+Baskerville & display=swap" rel="stylesheet">
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
         <link
             rel="stylesheet"
@@ -23,40 +29,35 @@
 
         <!-- NAVBAR -->
    
-    <header>
-       <nav class="navbar-expand-sm navbar bg-light navbar-light fixed-top">
-            <div class="container">
-            
-                    <a href="index.html" class="navbar-brand">
-                        <img src="asset/img/logo.png" alt="Logo SUNPOWER">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                    </button>
-                        <span class="navbar-text">
-                        Penses-y une fois, penses-y deux fois, Pense SUNPOWER
-                        </span>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#accueil" class="nav-link">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#references" class="nav-link">Nos Références</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activite.html" class="nav-link">Nos activités</a>
-                        </li>
-                    </ul>
-                        <form class="justify-content-end">
-                          <a href="#" >
-                            <button type="button" class="btn btn-warning">Nous contacter</button>
-                         </a> 
-                        </form>
-                </div>
-            </div>
-        </nav> 
-    </header>
+        <header class="container-fluid" id="#">
+          <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+              <a class="navbar-brand" href="#"><img src="asset/img/logo.png" alt="logo" width="120"
+                      height="120"></a>
+                      <p>Penses écologie, Penses énergie,<br> Penses SunPower</p>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                  aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                  <ul class="navbar-nav">
+                      <li class="navbar-item">
+                          <a href="#" class="nav-link">Acceuil</a>
+                      </li>
+                      <li class="navbar-item">
+                          <a href="#Presentation" class="nav-link">Nos références</a>
+                      </li>
+                      <li class="navbar-item">
+                          <a href="#mesprojets" class="nav-link">Nos activités</a>
+                      </li>
+                  </ul>
+                  <ul class="navbar-button">
+                      <a href="#" >
+                          <button type="button" class="btn btn-warning">Nous contacter</button>
+                       </a> 
+                  </ul>
+              </div>
+          </nav>
+      </header>
 
         <!-- Main -->
 
@@ -147,7 +148,7 @@
                     <img src="asset/img/png-clipart-computer-icons-partnering-program-blue-angle.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Un accompagnement </h5>
-                      <p class="card-text">SunPower vous accompagne sur tout vos démarche</p>
+                      <p class="card-text">SunPower vous accompagne sur toute vos démarches</p>
                     </div>
                   </div>
                 </div>
@@ -214,28 +215,18 @@
           </section>
         <section class="content">
             <div class="row">
-                    <div class="col text-center heading white">
+                    <div class="col-12 text-center heading white">
                         <h2>Ils nous ont fait confiance</h2>
                         <p>L'avis de nos client est important pour nous</p>
                     </div>
                     
                 <div class="content">   
-                    <div class="col-md-6 text-center" style="margin: 10px; padding: 10px;">
-                        <div class="formul"; class="servicesBx">
-                            <img class="logo-size" src="asset/img/PSA.jpg" alt="logo PSA" style="margin: 10px; padding: 10px;">
-                        </div>
-                        <div class="formul"; class="servicesBx">
-                            <img class="logo-size" src="asset/img/cea.png" alt="logo cea" style="margin: 10px; padding: 10px;">
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center" style="margin: 10px; padding: 10px;">
-                        <div class="formul"; class="servicesBx">
-                            <img class="logo-size" src="asset/img/occitanie.png" alt="logo occitanie" style="margin: 10px; padding: 10px;">
-                        </div>
-                        <div class="formul"; class="servicesBx">
-                            <img class="logo-size" src="asset/img/AggloMTP.png" alt="logo agglo MTP" style="margin: 10px; padding: 10px;">
-                        </div>
-                    </div>
+                  <div class="row">
+                    <div class="col-6"><img class="logo-size" src="asset/img/PSA.jpg" alt="logo PSA" ></div>
+                    <div class="col-6"><img class="logo-size" src="asset/img/occitanie.png" alt="logo PSA" ></div>
+                    <div class="col-6"><img class="logo-size" src="asset/img/AggloMTP.png" alt="logo PSA" ></div>
+                    <div class="col-6"><img class="logo-size" src="asset/img/cea.png" alt="logo PSA" ></div>
+                  </div>
                 </div>
             </div>
         </section>
