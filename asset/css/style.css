@@ -2,6 +2,7 @@
 @import 'composant.css';
 @import 'header.css';
 @import 'footer.css';
+@import 'references.css';
 * {
     margin: 0;
     padding: 0;
