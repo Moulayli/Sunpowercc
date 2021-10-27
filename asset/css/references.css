@@ -14,26 +14,23 @@
 }
 #section1 .drk {
     position: absolute;
-    
     width: 100%;
     min-height: 700px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
 }
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
   }
-  
-/*   .wrapper {
-    height: 100vh;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  /* #section{
+    background: url(/asset/img/references.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 500px;
   } */
-  
-  
-  
   #section2 .container {
     overflow: hidden;
     padding: 20px 10px;
@@ -101,9 +98,7 @@
     transform: translatey(-50%) rotate(45deg);
     position: absolute;
   }
-  #section3 {
-    
-  }
+  
   #section3 h2 {
     padding: 80px;
     background: rgb(29,79,145);
@@ -117,8 +112,8 @@
   #section3 img {
       border-radius: 150%;
       max-height: 200px;
+      padding: 30px;
   }
   #section3 .text {
-      padding: 100px;
+      padding: 20px;
   }
-  
