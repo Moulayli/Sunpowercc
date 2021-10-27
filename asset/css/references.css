@@ -102,6 +102,10 @@
     position: absolute;
   }
   #section3 {
+    
+  }
+  #section3 h2 {
+    padding: 80px;
     background: rgb(29,79,145);
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,5 +117,8 @@
   #section3 img {
       border-radius: 150%;
       max-height: 200px;
+  }
+  #section3 .text {
+      padding: 100px;
   }
   

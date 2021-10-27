@@ -22,36 +22,44 @@
 <body>
     <!-- NAVBAR -->
     <header>
-        <nav class="navbar-expand-sm navbar bg-light navbar-light fixed-top">
-            <div class="container">
-            
-                    <a href="index.html" class="navbar-brand">
-                        <img src="asset/img/logo.png" alt="Logo SUNPOWER">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+       <div class="container">
+           <a href="#" class="navbar-brand"><img style= margin-left:-100px;max-width:150px; src="img/logo.png"></a><p class="text-white">Penses énergie, penses écologie,<br>Penses SunPower</p>
+           <button type="button" class="navbar-toggler" data-bs-target="$navbarNav" data-bs-toggler="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <div class="mx-auto"></div>
+               <ul class="navbar-nav">
+                   <li class="nav-item">
+                       <a href="" class="nav-link text-white">Accueil</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="" class="nav-link text-white">Nos références</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nos activités
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                    </button>
-                        <span class="navbar-text">
-                        Pensez-y une fois, pensez-y deux fois, Pensez SUNPOWER
-                        </span>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#accueil" class="nav-link">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#references" class="nav-link">Nos Références</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="activite.html" class="nav-link">Nos activités</a>
-                        </li>
-                    </ul>
-                        <form class="justify-content-end">
-                            <button class="btn btn-warning me-2" type="button"> <a href="contact.html">Nous contacter</a></button>
-                        </form>
-                </div>
-            </div>
-        </nav> 
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+               </ul>
+               <div class="mx-auto"></div>
+               <ul class="navbar-nav">
+                <li class="nav-item">
+                    <button class="btn btn-warning"><a href="" class="nav-link text-white">Nous contacter</a></button>
+                </li>
+               </ul>
+
+           </div>
+       </div>
+   </nav>
     </header> 
 
     <!-- MAIN -->
@@ -69,63 +77,100 @@
         </section>
         
         <section id="section2">
+        <div class="row">
 
-          <div class="container">
+          <div class="container col-md-8">
             
             <div class="job">
-              <h2>Les Ombrières Solaires </h2>
-              <p>La recherche et le développement constitue l'ADN de la société.<br/>
-                SunPower participe à deifférents projets européeens, notamment le projet mené avec le CEA et le groupe PSA sur un syteme de recharge par induction sur des distances de plus d'1 mètre.<br/>
-                Les Principaux traveaux de SunPower sont basées sur :<br/></p>
-                <ul>
-                    <li> L'électronique de puissance</li>
-                    <li> Le développements des BMS</li>
-                    <li> L'electronique embarquée </li>
-                </ul>
-                <button type="button" class="btn btn-warning">Plus d'infos</button>
+              <h2 id="first" data-point="0">Les Ombrières Solaires </h2>
+              <div id="afficheur">
+
+              </div>
             </div>
             
             <div class="job">
-              <h2>L'accompagnement</h2>
-              <p>Nous accompagnons les collectivités qui souhaitent implanter nos ombrières sur le territoire :<br/></p>
-                <ul>
-                    <li> Étude de faisabilité</li>
-                    <li> Mise en conformité avec le PLUI</li>
-                    <li> Appels d’offres</li>
-                    <li> Montage financier</li>
-                </ul>
-                <button type="button" class="btn btn-warning">Nous contacter</button>
+              <h2 id="second" data-point="0">L'accompagnement</h2>
+              <div id="afficheur2">
+
+              </div>
             </div>
             
             <div class="job">
-              <h2>La recherche et le développement</h2>
-              <p>La recherche et le développement constitue l'ADN de la société.<br/>
-                SunPower participe à deifférents projets européeens, notamment le projet mené avec le CEA et le groupe PSA sur un syteme de recharge par induction sur des distances de plus d'1 mètre.<br/>
-                Les Principaux traveaux de SunPower sont basées sur :<br/></p>
-                <ul>
-                    <li> L'électronique de puissance</li>
-                    <li> Le développements des BMS</li>
-                    <li> L'electronique embarquée </li>
-                </ul>
+              <h2 id="third" data-point="0">La recherche et le développement</h2>
+              <div id="afficheur3">
+
+              </div>
               
-                <button type="button" class="btn btn-warning" >Plus d'infos</button>
-                </a>
             </div>
+            <script>
+                function main() {
+                    let i=Number(document.getElementById('first').dataset.point);
+                    let a=Number(document.getElementById('second').dataset.point);
+                    let b=Number(document.getElementById('third').dataset.point);
+
+                    document.getElementById('first').addEventListener('click', function() {
+                        if (i==1) {
+                            document.getElementById('afficheur').innerHTML="";
+                            i=0;
+                        }
+                        else {
+                            document.getElementById('afficheur') .innerHTML="<p>Le système de recharge pour votre véhicule électrique par excellence.<br/>Implanté sur la commune de Montpellier <ul> <li>4 ombrieres sont déja à votre disposition</li> <li>7 bornes de recharges par ombrière solaire</li> <li>1 partenariat avec la région Occitanie et la mise en oeuvre prochaine de l'installation d'ombrieres sur l'agglomération toulousaine.</li> </ul> </p> <button type='button' class='btn btn-warning'>Plus d'infos</button>";
+                            i=i+1;
+                        }
+                    });
+
+                    document.getElementById('second').addEventListener('click', function() {
+                        if (a==1) {
+                            document.getElementById('afficheur2').innerHTML=""; 
+                            a=0;
+                        }
+                        else {
+                            document.getElementById('afficheur2').innerHTML="<p>Nous accompagnons les collectivités qui souhaitent implanter nos ombrières sur le territoire :<br/></p><ul><li> Étude de faisabilité</li><li> Mise en conformité avec le PLUI</li><li> Appels d’offres</li><li> Montage financier</li></ul><button type='button'class='btn btn-warning'>Nous contacter</button>"
+                            a=a+1;
+                        }
+                    });
+                    document.getElementById('third').addEventListener('click', function() {
+                        if (b==1) {
+                            document.getElementById('afficheur3').innerHTML='';
+                            b=0;
+                        }
+                        else {
+                            document.getElementById('afficheur3').innerHTML=" <p>La recherche et le développement constitue l'ADN de la société.<br/>SunPower participe à deifférents projets européeens, notamment le projet mené avec le CEA et le groupe PSA sur un syteme de recharge par induction sur des distances de plus d'1 mètre.<br/>Les Principaux traveaux de SunPower sont basées sur :<br/></p><ul><li> L'électronique de puissance</li><li> Le développements des BMS</li><li> L'electronique embarquée </li></ul><button type='button' class='btn btn-warning' >Plus d'infos</button>";
+                            b=b+1;
+                        }
+                    });
+
+                }
+                document.addEventListener("DOMContentLoaded", main);
+
+            </script>
+            
+            <div class="col-md-4">
+                <a href="/asset/img/references.png"></a>
+            </div>
+        </div>
         </section>    
 
         <section id="section3">
+            <h2>Les Fondateurs</h2>
             <div class="row">
                 <div class="col-4"> <img src="asset/img/image.jpg" alt="Alex Pareneinstein" class="img-fluid">
-                    <h5>Alex Pareneinstein</h5>
-                    <p>Ingénieur en Energie</p>
+                    <div class="text">
+                        <h5>Alex Pareneinstein</h5>
+                        <p>Ingénieur en Energie</p>
+                    </div>
                 </div>
                 <div class="col-4"> <img src="asset/img/pdg1.jpg" alt="Hugo Oppenheimer" class="img-fluid">
-                    <h5>Hugo Oppenheimer</h5>
-                    <p>PDG de SUNPOWER</p>
+                    <div class="text">
+                        <h5>Hugo Oppenheimer</h5>
+                        <p>PDG de SUNPOWER</p>
+                    </div>
                 </div>
                 <div class="col-4"> <img src="asset/img/pdg2.jpg" alt="Alex Pareneinstein" class="img-fluid">
-                    <h5>Serge Turing</h5>
-                    <p>Ingénieur en Energie solaire</p>
+                    <div class="text">
+                        <h5>Serge Turing</h5>
+                        <p>Ingénieur en Energie solaire</p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -2,8 +2,13 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Scheherazade New';
+    font-size: 1.3rem;
 }
+h1,h2,h3,h4,h5{
 
+  font-family: 'libre-baskerville';
+}
 .banner-image{
     background-image:url('img/ombriere-solaire-autocthome-2-places-abri-solaire-avec-panneaux-photovoltaique-1024x576-368.png') ;
     background-size: cover;
@@ -14,6 +19,82 @@ body{
     
 }
 
+<<<<<<< HEAD
+=======
+h2 {
+    margin-top: 10%;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  h2:before,
+  h2:after {
+    background-color: rgb(255, 205, 41);
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+  }
+  
+  h2:before {
+    right: 1em;
+    margin-left: -50%;
+  }
+  
+  h2:after {
+    left: 1em;
+    margin-right: -50%;
+  }
+.text-center{
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.premierblc{
+    margin-top: 500px;
+}
+h5{
+    text-align: center;
+    color: rgb(255, 205, 41);
+}
+.logo-size{
+  margin: 40px;
+  padding: 40px;
+  width: 70%;
+}
+p.card-text{
+    margin-top: 30px;
+    
+}
+
+.cta-section-confiance{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  justify-content: center;
+}
+
+
+.cta-section-confiance.a{
+  text-decoration: none;
+}
+.test{
+  text-align: center;
+  margin-top: 100px;
+}
+.p-5{
+  background-color: rgb(29,79,145);
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  font-family:'libre-baskerville';
+}
+
+
+
+
+>>>>>>> c09a0f8aff7fd60e51979a3a577bae41ada6ab35
 a.text-white{
     text-decoration: none;
 }
